@@ -1,0 +1,21 @@
+#fullscreen {
+  text-align: center;
+}
+
+#fullscreen a {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: black;
+  background-color: rgb(0, 0, 0, 0.3);
+  color: white;
+}
+
+#fullscreen a:hover {
+  border: none;
+}
+
+#fullScreenImg {
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+}

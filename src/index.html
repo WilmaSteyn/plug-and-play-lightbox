@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>StandaloneLightbox</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script type="text/javascript">
+    function showPhoto() {
+      let event = new CustomEvent('showPhoto', {detail: {
+          url: 'http://www.amberskycreations.co.za/wordpress/wp-content/uploads/2020/04/MaloutswaHide_IMG_8509-1024x576.jpg',
+          title: 'Test image'
+        }});
+      document.dispatchEvent(event);
+    }
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+
+  <input type="button" value="show" onClick="showPhoto()">
+
+</body>
+</html>

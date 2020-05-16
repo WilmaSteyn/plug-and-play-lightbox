@@ -1,0 +1,8 @@
+<div id="fullscreen" #fullscreen class="fadeIn" >
+  <div class="lb-data">
+      <a class="lb-fullscreen-exit" (click)="exitFullscreen()"></a>
+  </div>
+  <div (touchstart)="swipe($event, 'start')" (touchend)="swipe($event, 'end')">
+    <img id="fullScreenImg" src="{{photoList[index].url}}" [ngStyle]="{'max-width': getImgWidth(), 'max-height': getImgHeight()}"/>
+  </div>
+</div>
