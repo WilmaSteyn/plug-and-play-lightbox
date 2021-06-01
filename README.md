@@ -1,5 +1,7 @@
 # StandaloneLightbox
 
+This is a angular app that can be used as a stand-alone component on a non-angular website, to render images in a lightbox.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
